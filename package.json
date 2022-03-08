@@ -1,6 +1,7 @@
 {
   "name": "landpage",
   "version": "0.1.0",
+  "homepage": "https://minbok-1998.github.io/landingpage/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -9,8 +10,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://minbok-1998.github.io/landingpage/"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
