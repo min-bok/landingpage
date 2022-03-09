@@ -1,4 +1,37 @@
 #footer {
+    display: flex;
     height: 10rem;
     background-color: palevioletred;
+    align-items: center;
+}
+
+.logo {
+    width: 14.125rem;
+    height: 4.375rem;
+    background-image: url(../img/logo.svg);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.wrap {
+    display: flex;
+    width: 14.25rem;
+    height: 2.625rem;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.blog,
+.insta,
+.facebook,
+.youtube {
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 50%;
+    background-color: #F29D52;
+}
+
+.blog {
+    background-image: url(../img/blog.svg);
+    background-repeat: no-repeat;
 }
