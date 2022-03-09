@@ -1,6 +1,6 @@
 #second {
     height: 184.25rem;
-    background-color: paleturquoise;
+    background-color: #fff;
 }
 
 .one {
@@ -61,4 +61,39 @@
 .colorOrange {
     font-weight: 700;
     color: #D97652;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    margin-top: 5.5rem;
+}
+
+.threeWrap {
+    display: flex;
+    width: 79.875rem;
+    justify-content: space-between;
+}
+
+
+.catOne,
+.catTwo,
+.catThree {
+    width: 23.625rem;
+    height: 23.625rem;
+    border-radius: 30px;
+    background-color: palegreen;
+    box-shadow: 10px 10px 30px 0px #00000040;
+}
+
+.catOne {
+    background-image: url('../img/img_1.jpg');
+}
+
+.catTwo {
+    background-image: url('../img/img_2.jpg');
+}
+
+.catThree {
+    background-image: url('../img/img_3.jpg');
 }

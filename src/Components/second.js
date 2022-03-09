@@ -26,7 +26,13 @@ function Second() {
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
                     </p>
                 </div>
-                <div className={`${style.three}`}></div>
+                <div className={`${style.three}`}>
+                    <div className={`${style.threeWrap}`}>
+                        <div className={`${style.catOne}`}></div>
+                        <div className={`${style.catTwo}`}></div>
+                        <div className={`${style.catThree}`}></div>
+                    </div>
+                </div>
                 <div className={`${style.four}`}></div>    
             </section>
         </>
