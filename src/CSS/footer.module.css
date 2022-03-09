@@ -1,7 +1,8 @@
 #footer {
+    position: relative;
     display: flex;
     height: 10rem;
-    background-color: palevioletred;
+    background-color: #fff;
     align-items: center;
 }
 
@@ -10,15 +11,17 @@
     height: 4.375rem;
     background-image: url(../img/logo.svg);
     background-size: 100% 100%;
+    margin-left: 20rem;
     cursor: pointer;
 }
 
 .wrap {
+    position: absolute;
     display: flex;
     width: 14.25rem;
     height: 2.625rem;
-    background-color: aqua;
     justify-content: space-between;
+    right: 20rem;
 }
 
 .blog,
@@ -29,9 +32,22 @@
     height: 2.625rem;
     border-radius: 50%;
     background-color: #F29D52;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .blog {
     background-image: url(../img/blog.svg);
-    background-repeat: no-repeat;
+}
+
+.insta {
+    background-image: url(../img/instagram.svg);
+}
+
+.facebook {
+    background-image: url(../img/facebook.svg);
+}
+
+.youtube {
+    background-image: url(../img/youtube.svg);
 }
