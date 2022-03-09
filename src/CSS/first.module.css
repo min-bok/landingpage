@@ -1,4 +1,57 @@
 #first {
     height: 56.25rem;
-    background-color: palegreen;
+    background-color: #F2E9D8;
+    overflow: hidden;
+}
+
+.wrap {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.textWrap {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 46.063rem;
+    height: 21rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    left: 20rem;
+}
+
+.text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.756rem;
+}
+
+.detailText {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.252rem;
+}
+
+.btn {
+    width: 8.75rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img {
+    position: absolute;
+    width: 25.938rem;
+    height: 55.625rem;
+    background-image: url('../img/box-cat.png');
+    right: 20rem;
+    margin-top: 13.375rem;
 }

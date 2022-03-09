@@ -5,9 +5,17 @@ function First() {
         <section id={`${style.first}`}>
             <div className={`${style.wrap}`}>
                 <div className={`${style.textWrap}`}>
-                    <pre className={`${style.text}`}></pre>
-                    <pre className={`${style.detailText}`}></pre>
-                    <button className={`${style.btn}`}></button>
+                    <p className={`${style.text}`}>
+                        Lorem Ipsum is simply<br/>
+                        dummy text of the printing and
+                    </p>
+                    <p className={`${style.detailText}`}>
+                    Lorem Ipsum is simply dummy text of the printing and<br/>
+                    typesetting industry.<br/>
+                    Lorem Ipsum has been the industry's standard dummy text<br/>
+                    ever since the 1500s, when an unknown    
+                    </p>
+                    <button className={`${style.btn}`}>Download</button>
                 </div>
                 <div className={`${style.img}`}></div>
             </div>
