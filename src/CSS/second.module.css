@@ -39,3 +39,26 @@
     font-size: 2.25rem;
     font-weight: 700;
 }
+
+.two {
+    margin-top: 7.5rem;
+    text-align: center;
+}
+
+.textTwo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #D97652;
+    margin-bottom: 2.5rem;
+}
+
+.textTwoDetail {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.252rem;
+}
+
+.colorOrange {
+    font-weight: 700;
+    color: #D97652;
+}
