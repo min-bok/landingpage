@@ -1,0 +1,19 @@
+#three {
+    position: relative;
+    width: 100vw;
+}
+
+.threeImg {
+    position: absolute;
+    width: 120rem;
+    height: 56.25rem;
+    background-image: url('../img/img_5.jpg');
+}
+
+.imgCover {
+    position: absolute;
+    width: 120rem;
+    height: 56.25rem;
+    background-color: #F2E9D899;
+    opacity: 0.6;
+}
