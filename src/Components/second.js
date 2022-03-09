@@ -33,7 +33,14 @@ function Second() {
                         <div className={`${style.catThree}`}></div>
                     </div>
                 </div>
-                <div className={`${style.four}`}></div>    
+                <div className={`${style.four}`}>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br/>
+                        Ipsum is simply dummy text of the printing and typesetting industry. 
+                    </p>
+                    <button className={`${style.learnMore}`}>Learn More</button>
+                </div>    
             </section>
         </>
     ) 
