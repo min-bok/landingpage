@@ -1,4 +1,5 @@
 #header {
+    position: relative;
     display: flex;
     height: 6.375rem;
     background-color: #F2E9D8;
@@ -9,12 +10,22 @@
     width: 8.125rem;
     height: 2.5rem;
     background-image: url(../img/logo.svg);
-    background-color: pink;
+    margin-left: 20rem;
+    cursor: pointer;
 }
 
 .menu {
+    position: absolute;
     display: flex;
     align-items: center;
+    right: 20rem;
+}
+
+.wrap {
+    display: flex;
+    width: 13.375rem;
+    height: 1.25rem;
+    justify-content: space-between;
 }
 
 .home,
@@ -22,6 +33,7 @@
 .support {
     font-size: 1rem;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .download {
@@ -33,4 +45,6 @@
     font-size: 1rem;
     font-weight: 700;
     color: #fff;
+    margin-left: 2.5rem;
+    cursor: pointer;
 }
