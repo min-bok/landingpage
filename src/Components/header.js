@@ -5,10 +5,10 @@ function Header() {
         <section id={`${style.header}`}>
             <div className={`${style.logo}`}></div>
             <div className={`${style.menu}`}>
-                <p className={`${style.home}`}></p>
-                <p className={`${style.about}`}></p>
-                <p className={`${style.support}`}></p>
-                <button className={`${style.download}`}></button>
+                <p className={`${style.home}`}>Home</p>
+                <p className={`${style.about}`}>About</p>
+                <p className={`${style.support}`}>Support</p>
+                <button className={`${style.download}`}>Download</button>
             </div>
         </section>
     )

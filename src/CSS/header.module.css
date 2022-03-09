@@ -1,4 +1,36 @@
 #header {
+    display: flex;
     height: 6.375rem;
     background-color: #F2E9D8;
+    align-items: center;
+}
+
+.logo {
+    width: 8.125rem;
+    height: 2.5rem;
+    background-image: url(../img/logo.svg);
+    background-color: pink;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.home,
+.about,
+.support {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.download {
+    width: 8.75rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
 }
