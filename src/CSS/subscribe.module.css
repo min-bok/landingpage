@@ -1,0 +1,76 @@
+#subscribe {
+    position: absolute;
+    display: flex;
+    width: 80rem;
+    height: 12.5rem;
+    background-color: #263140;
+    align-items: center;
+    border-radius: 30px;
+    top: 145.5rem;
+    left: 16.66666666667%;
+    z-index: 990;
+}
+
+.textWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30.688rem;
+    height: 6.25rem;
+    margin-left: 3.625rem;
+    margin-right: 8.938rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.096rem;
+    color: #F2E9D8;
+}
+
+.searchBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 33.125rem;
+    height: 3.75rem;
+    background-color: #fff;
+    border-radius: 60px;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../img/mail.svg);
+    margin-left: 1.75rem;
+    margin-right: 1rem;
+}
+
+.input {
+    width: 12rem;
+    height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #767676;
+    border: none;
+}
+
+.btn {
+    position: absolute;
+    width: 8.5rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    right: 0.313rem;
+    cursor: pointer;
+}

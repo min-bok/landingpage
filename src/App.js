@@ -6,6 +6,7 @@ import First from './Components/first';
 import Second from './Components/second';
 import Three from './Components/three';
 import Footer from './Components/footer';
+import Subscribe from './Components/subscribe';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Header/>
     <First/>
     <Second/>
+    <Subscribe />
     <Three/>
     <Footer/>
     </>
