@@ -33,6 +33,11 @@
     border-radius: 50%;
     right: 1.5rem;
     bottom: 1.5rem;
+    border: 1px solid #C4C4C4;
     cursor: pointer;
     z-index: 990;
+}
+
+.topBtn:hover {
+    background-image: url(../img/top-btn-hover.svg);
 }
