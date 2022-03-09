@@ -5,6 +5,7 @@ import Header from './Components/header';
 import First from './Components/first';
 import Second from './Components/second';
 import Three from './Components/three';
+import Footer from './Components/footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <First/>
     <Second/>
     <Three/>
+    <Footer/>
     </>
   );
 }

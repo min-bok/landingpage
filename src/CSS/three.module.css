@@ -1,18 +1,18 @@
 #three {
     position: relative;
-    width: 100vw;
 }
 
 .threeImg {
     position: absolute;
-    width: 120rem;
+    width: 100vw;
     height: 56.25rem;
     background-image: url('../img/img_5.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .imgCover {
-    position: absolute;
-    width: 120rem;
+    width: 100vw;
     height: 56.25rem;
     background-color: #F2E9D899;
     opacity: 0.6;
