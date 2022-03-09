@@ -34,7 +34,7 @@ function Second() {
                     </div>
                 </div>
                 <div className={`${style.four}`}>
-                    <p>
+                    <p className={`${style.fourText}`}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br/>
                         Ipsum is simply dummy text of the printing and typesetting industry. 

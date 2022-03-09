@@ -1,5 +1,4 @@
 #second {
-    height: 184.25rem;
     background-color: #fff;
 }
 
@@ -13,7 +12,6 @@
 .oneImg {
     width: 41.25rem;
     height: 24.375rem;
-    background-color: pink;
     background-image: url('../img/img_4.png');
     border-radius: 30px;
     box-shadow: 10px 10px 30px 0px #00000040;
@@ -82,7 +80,6 @@
     width: 23.625rem;
     height: 23.625rem;
     border-radius: 30px;
-    background-color: palegreen;
     box-shadow: 10px 10px 30px 0px #00000040;
 }
 
@@ -98,10 +95,28 @@
     background-image: url('../img/img_3.jpg');
 }
 
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.625rem;
+    padding-bottom: 11.875rem;
+}
+
+.fourText {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.252rem;
+    margin-right: 3.25rem;
+}
+
 .learnMore {
     width: 9.188rem;
     height: 3.125rem;
     border: none;
     border-radius: 40px;
     background-color: #D97652;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
 }
