@@ -75,3 +75,14 @@
     right: 0.313rem;
     cursor: pointer;
 }
+
+/**Tablet 768X481**/
+@media all and (max-width: 769px){
+    #subscribe {
+        left: 10.66666666667%;
+    }
+
+    .text {
+        line-height: 1.15rem;
+    }
+}

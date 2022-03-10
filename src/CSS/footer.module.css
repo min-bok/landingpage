@@ -53,3 +53,14 @@
 .youtube {
     background-image: url(../img/youtube.svg);
 }
+
+/**Tablet 768X481**/
+@media all and (max-width: 769px){
+    .logo {
+        margin-left: 10rem;
+    }
+
+    .wrap {
+        right: 10rem;
+    }
+}
