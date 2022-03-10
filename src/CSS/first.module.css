@@ -16,11 +16,14 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 46.063rem;
     height: 21rem;
     align-items: flex-start;
     justify-content: space-between;
     left: 20rem;
+}
+
+.textWebOne {
+    display: block;
 }
 
 .text {
@@ -70,4 +73,65 @@
     .img {
         right: 12rem;
     }
+}
+
+/* moblie */
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    #first {
+        width: 100vw;
+        height: 96.8rem;
+        padding-top: 10.133rem;
+    }
+    
+    .wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .textWrap {
+        display: flex;
+        flex-direction: column;
+        /* width: 35.2rem; */
+        height: 21rem;
+        text-align: center;
+    }
+    
+    .text {
+        font-size: 3.2rem;
+        line-height: 4.007rem;
+    }
+
+    .textMobileOne {
+        display: block;
+    }
+    
+    /* .detailText {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.252rem;
+    }
+    
+    .btn {
+        width: 8.75rem;
+        height: 3.125rem;
+        border: none;
+        border-radius: 40px;
+        background-color: #D97652;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .img {
+        position: absolute;
+        width: 25.938rem;
+        height: 55.625rem;
+        background-image: url(../img/box-cat.png);
+        background-size: 100% 100%;
+        right: 20rem;
+        margin-top: 13.375rem;
+    } */
 }

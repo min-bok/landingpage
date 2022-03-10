@@ -6,8 +6,8 @@ function First() {
             <div className={`${style.wrap}`}>
                 <div className={`${style.textWrap}`}>
                     <p className={`${style.text}`}>
-                        Lorem Ipsum is simply<br/>
-                        dummy text of the printing and
+                        <span className={`${style.textWebOne}`}>Lorem Ipsum is simply</span>
+                        <span className={`${style.textMobileOne}`}>dummy text</span> of the printing and
                     </p>
                     <p className={`${style.detailText}`}>
                     Lorem Ipsum is simply dummy text of the printing and<br/>
