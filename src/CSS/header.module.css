@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.hamburger {
+    display: none;
+}
+
 .menu {
     position: absolute;
     display: flex;
@@ -71,5 +75,30 @@
 
 /**Mobile L 425X481**/
 @media all and (max-width: 426px){
+    #header {
+        width: 100vw;
+        height: 10.133rem;
+        background-color: #F2E9D8;
+    }
     
+    .logo {
+        width: 12.267rem;
+        height: 3.733rem;
+        margin-left: 2.667rem;
+    }
+
+    .hamburger {
+        position: absolute;
+        display: block;
+        width: 4.267rem;
+        height: 4.267rem;
+        background-image: url(../img/menu.svg);
+        background-size: 100% 100%;
+        right: 2.667rem;
+        cursor: pointer;
+    }
+    
+    .menu {
+        display: none;
+    }
 }

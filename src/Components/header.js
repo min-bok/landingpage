@@ -4,6 +4,7 @@ function Header() {
     return(
         <section id={`${style.header}`}>
             <div className={`${style.logo}`}></div>
+            <div className={`${style.hamburger}`}></div>
             <div className={`${style.menu}`}>
                 <div className={`${style.wrap}`}>
                     <p className={`${style.home}`}>Home</p>

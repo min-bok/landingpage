@@ -41,10 +41,3 @@ body {
         font-size: 7.5px;
     }
 }
-
-/**Mobile L 425X481**/
-@media all and (max-width: 426px){
-    html {
-        font-size: 4px;
-    }
-}
