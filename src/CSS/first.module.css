@@ -52,6 +52,7 @@
     width: 25.938rem;
     height: 55.625rem;
     background-image: url(../img/box-cat.png);
+    background-size: 100% 100%;
     right: 20rem;
     margin-top: 13.375rem;
 }
