@@ -123,3 +123,12 @@
     color: #fff;
     cursor: pointer;
 }
+
+/**Tablet 768X481**/
+@media all and (max-width: 769px){
+    .textDetail,
+    .textTwoDetail,
+    .fourText {
+        line-height: 1.5rem;
+    }
+}

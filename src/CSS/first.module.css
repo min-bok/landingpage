@@ -62,6 +62,10 @@
     .textWrap {
         left: 12rem;
     }
+    
+    .detailText {
+        line-height: 1.5rem;
+    }
 
     .img {
         right: 12rem;
