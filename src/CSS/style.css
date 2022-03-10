@@ -6,6 +6,38 @@
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     overflow-x: hidden;
+}
+
+/**4K 2690X1376**/
+@media all and (max-width: 2691px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+/**Laptop L 1440x740**/
+@media all and (max-width: 1441px){
+    html {
+        font-size: 12px;
+    }
+}
+
+/**Laptop 1024X642**/
+@media all and (max-width: 1025px){
+    html {
+        font-size: 8px;
+    }
+}
+
+/**Tablet 768X481**/
+@media all and (max-width: 769px){
+    html {
+        font-size: 6px;
+    }
 }

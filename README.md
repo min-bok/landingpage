@@ -3,7 +3,7 @@
 <br>
 <br>
   
-# 💌 Landing page 소개
+# 🐱 Landing page 소개
 React로 제작된 Landing page 입니다.<br>
 
 <br>
