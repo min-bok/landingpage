@@ -22,7 +22,7 @@
     left: 20rem;
 }
 
-.textWebOne {
+.textWeb {
     display: block;
 }
 
@@ -36,6 +36,10 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.252rem;
+}
+
+.mobileText {
+    display: none;
 }
 
 .btn {
@@ -103,7 +107,19 @@
         line-height: 4.007rem;
     }
 
-    .textMobileOne {
+    .textMobile {
+        display: block;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .webText {
+        display: none;
+    }
+
+    .mobileText {
         display: block;
     }
     
