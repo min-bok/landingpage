@@ -56,3 +56,14 @@
     right: 20rem;
     margin-top: 13.375rem;
 }
+
+/**Tablet 768X481**/
+@media all and (max-width: 769px){
+    .textWrap {
+        left: 12rem;
+    }
+
+    .img {
+        right: 12rem;
+    }
+}

@@ -55,11 +55,11 @@
 /**Tablet 768X481**/
 @media all and (max-width: 769px){
     .logo {
-        margin-left: 10rem;
+        margin-left: 12rem;
     }
     
     .menu {
-        right: 10rem;
+        right: 12rem;
     }
 
     .wrap {
