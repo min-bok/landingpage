@@ -54,6 +54,10 @@
     background-image: url(../img/youtube.svg);
 }
 
+.moblie {
+    display: none;
+}
+
 /**Tablet 768X481**/
 @media all and (max-width: 769px){
     .logo {
@@ -71,7 +75,6 @@
         position: relative;
         width: 100vw;
         height: 23.733rem;
-        background-color: palegreen;
     }
     
     .logo {
@@ -79,8 +82,8 @@
         width: 14.933rem;
         height: 4.533rem;
         margin: 0;
-        top: 0;
-        left: 0;
+        top: 4rem;
+        left: 2.667rem;
     }
     
     .wrap {
@@ -89,8 +92,8 @@
         height: 4.267rem;
         justify-content: space-between;
         margin: 0;
-        left: 0;
-        bottom: 0;
+        left: 2.667rem;
+        bottom: 3.2rem;
     }
     
     .blog,
@@ -99,5 +102,22 @@
     .youtube {
         width: 4.267rem;
         height: 4.267rem;
+    }
+
+    .moblie {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 11.333rem;
+        height: 16rem;
+        color: #767676;
+        font-size: 1.867rem;
+        right: 2.667rem;
+    }
+
+    .menu {
+        cursor: pointer;
     }
 }
