@@ -25,6 +25,12 @@ function Second() {
                         Lorem Ipsum is simply <span className={`${style.colorOrange}`}>dummy text</span> of the printing and typesetting industry.<br/>
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
                     </p>
+                    <p className={`${style.textTwoDetailMobile}`}>
+                        Lorem Ipsum is simply <span className={`${style.colorOrange}`}>dummy text</span> of the<br/> 
+                        printing and typesetting industry.<br/>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br/>
+                        when an unknown
+                    </p>
                 </div>
                 <div className={`${style.three}`}>
                     <div className={`${style.threeWrap}`}>
