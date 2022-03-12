@@ -64,3 +64,40 @@
         right: 10rem;
     }
 }
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    #footer {
+        position: relative;
+        width: 100vw;
+        height: 23.733rem;
+        background-color: palegreen;
+    }
+    
+    .logo {
+        position: absolute;
+        width: 14.933rem;
+        height: 4.533rem;
+        margin: 0;
+        top: 0;
+        left: 0;
+    }
+    
+    .wrap {
+        display: flex;
+        width: 23.467rem;
+        height: 4.267rem;
+        justify-content: space-between;
+        margin: 0;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .blog,
+    .insta,
+    .facebook,
+    .youtube {
+        width: 4.267rem;
+        height: 4.267rem;
+    }
+}
