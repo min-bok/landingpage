@@ -14,7 +14,7 @@ function App() {
     <Header/>
     <First/>
     <Second/>
-    {/* <Subscribe /> */}
+    <Subscribe />
     <Three/>
     <Footer/>
     </>

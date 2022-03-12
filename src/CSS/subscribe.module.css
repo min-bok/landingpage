@@ -86,3 +86,62 @@
         line-height: 1.15rem;
     }
 }
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    #subscribe {
+        position: absolute;
+        flex-direction: column;
+        width: 43.467rem;
+        height: 46.4rem;
+        left: 4.267rem;
+        top: 278.133rem;
+    }
+    
+    .textWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 34.933rem;
+        height: 20.267rem;
+        margin: 0 auto;
+        margin-top: 4.8rem;
+    }
+    
+    .title {
+        width: 25.867rem;
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 4.007rem;
+        color: #fff;
+    }
+    
+    .text {
+        font-size: 1.867rem;
+        line-height: 2.337rem;
+    }
+    
+    .searchBar {
+        width: 34.933rem;
+        height: 5.333rem;
+        margin-top: 4rem;
+    }
+    
+    .icon {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    
+    .input {
+        width: 19.2rem;
+        height: 2.133rem;
+        font-size: 1.6rem;
+    }
+    
+    .btn {
+        width: 15.6rem;
+        height: 5.333rem;
+        font-size: 1.867rem;
+        bottom: -8rem;
+    }
+}
