@@ -15,8 +15,8 @@ function App() {
     <First/>
     <Second/>
     {/* <Subscribe /> */}
-    {/* <Three/>
-    <Footer/> */}
+    <Three/>
+    <Footer/>
     </>
   );
 }

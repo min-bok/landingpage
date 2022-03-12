@@ -41,3 +41,18 @@
 .topBtn:hover {
     background-image: url(../img/top-btn-hover.svg);
 }
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    .wrap {
+        height: 32rem;
+    }
+    
+    .topBtn {
+        display: none;
+    }
+    
+    .topBtn:hover {
+        display: none;
+    }
+}
