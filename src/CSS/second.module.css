@@ -1,5 +1,7 @@
 #second {
+    width: 100vw;
     background-color: #fff;
+    overflow: hidden;
 }
 
 .one {
@@ -140,9 +142,6 @@
 
 /**Mobile L 425X481**/
 @media all and (max-width: 426px){
-    #second {
-        background-color: #fff;
-    }
     
     .one {
         width: 100%;
@@ -200,12 +199,19 @@
     }
     
     .three {
+        position: relative;
         display: flex;
         width: 100vw;
         height:  34.667rem;
         justify-content: center;
         margin-top: 5.5rem;
-        overflow: hidden;
+        overflow-x: scroll;
+        -ms-overflow-style:none; /* IE and Edge */
+        scrollbar-width:none; /* Firefox */
+    }
+
+    .three::-webkit-scrollbar {
+        display: none;
     }
     
     .threeWrap {
@@ -214,7 +220,6 @@
         width: 109.333rem;
         justify-content: space-between;
         left: 4.267rem;
-        overflow-y: scroll;
     }
     
     .catOne,
