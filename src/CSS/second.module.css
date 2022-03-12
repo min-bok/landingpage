@@ -217,7 +217,7 @@
     .threeWrap {
         position: absolute;
         display: flex;
-        width: 109.333rem;
+        width: 117.867rem;
         justify-content: space-between;
         left: 4.267rem;
     }
@@ -239,6 +239,7 @@
     }
     
     .catThree {
+        margin-right: 4.267rem;
         background-image: url(../img/img_3.jpg);
     }
     
