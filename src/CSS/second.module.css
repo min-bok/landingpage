@@ -132,3 +132,125 @@
         line-height: 1.5rem;
     }
 }
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    #second {
+        background-color: #fff;
+    }
+    
+    .one {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .oneImg {
+        width: 43.467rem;
+        height: 25.333rem;
+        margin: 0 auto;
+    }
+    
+    .oneWrap {
+        width: 43.467rem;
+        height: 19.467rem;
+        margin: 0 auto;
+    }
+
+    .text {
+        font-size: 3.2rem;
+        line-height: 4.007rem;
+        margin-top: 5.333rem;
+    }
+    
+    .textDetail {
+        font-size: 1.867rem;
+        line-height: 2.337rem;
+    }
+
+    /* 여기부터 수정하기 */
+    
+    .two {
+        margin-top: 7.5rem;
+        text-align: center;
+    }
+    
+    .textTwo {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #D97652;
+        margin-bottom: 2.5rem;
+    }
+    
+    .textTwoDetail {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.252rem;
+    }
+    
+    .colorOrange {
+        font-weight: 700;
+        color: #D97652;
+    }
+    
+    .three {
+        display: flex;
+        justify-content: center;
+        margin-top: 5.5rem;
+    }
+    
+    .threeWrap {
+        display: flex;
+        width: 79.875rem;
+        justify-content: space-between;
+    }
+    
+    .catOne,
+    .catTwo,
+    .catThree {
+        width: 23.625rem;
+        height: 23.625rem;
+        border-radius: 30px;
+        background-size: 100% 100%;
+        box-shadow: 10px 10px 30px 0px #00000040;
+    }
+    
+    .catOne {
+        background-image: url(../img/img_1.jpg);
+    }
+    
+    .catTwo {
+        background-image: url(../img/img_2.jpg);
+    }
+    
+    .catThree {
+        background-image: url(../img/img_3.jpg);
+    }
+    
+    .four {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5.625rem;
+        padding-bottom: 11.875rem;
+    }
+    
+    .fourText {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.252rem;
+        margin-right: 3.25rem;
+    }
+    
+    .learnMore {
+        width: 9.188rem;
+        height: 3.125rem;
+        border: none;
+        border-radius: 40px;
+        background-color: #D97652;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+    }
+}

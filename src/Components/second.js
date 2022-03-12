@@ -12,8 +12,8 @@ function Second() {
                             dummy text of the printing and dummy text
                         </p>
                         <p className={`${style.textDetail}`}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting<br/>
-                        industry. 
+                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting</span>
+                                  industry. 
                         </p>
                     </div>
                 </div>
