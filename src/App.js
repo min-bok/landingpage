@@ -7,16 +7,18 @@ import Second from './Components/second';
 import Three from './Components/three';
 import Footer from './Components/footer';
 import Subscribe from './Components/subscribe';
+import Menu from './Components/Menu'
 
 function App() {
   return (
     <>
-    <Header/>
-    <First/>
+    {/* <Header/> */}
+    {/* <First/>
     <Second/>
     <Subscribe />
     <Three/>
-    <Footer/>
+    <Footer/> */}
+    <Menu />
     </>
   );
 }
