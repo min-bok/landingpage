@@ -11,6 +11,20 @@
     z-index: 990;
 }
 
+#modal {
+    position: absolute;
+    width: 37.5rem;
+    height: 25rem;
+    border-radius: 30px;
+    background-image: url(../img/modal-bg-img.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 142.5rem;
+    left: 41.25rem;
+    z-index: 10;
+    box-shadow: 10px 10px 30px 0px #00000040;
+}
+
 .showSub {
     display: block;
 }
@@ -19,17 +33,17 @@
     display: none;
 }
 
-#modal {
-    width: 40rem;
-    height: 40rem;
-}
-
 .showModal {
     display: block;
 }
 
 .hideModal {
     display: none;
+}
+
+.subCont {
+    display: flex;
+    align-items: center;
 }
 
 .textWrap {
@@ -97,11 +111,53 @@
     cursor: pointer;
 }
 
-.modal {
-    position: absolute;
-    width: 300px;
-    height: 300px;
+.modalCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalImg {
+    width: 6.875rem;
+    height: 7rem;
+    background-image: url(../img/cat-subscribe.png);
+    background-size: 100% 100%;
+    margin-top: 3.75rem;
+}
+
+.modalTextWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.modalTitle {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #D97652;
+    margin-bottom: 0.75rem;
+}
+
+.modalText {
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    margin-bottom: 2.375rem;
+}
+
+.modalBtn {
+    width: 11.813rem;
+    height: 3.125rem;
+    border: none;
+    border-radius: 40px;
     background-color: #D97652;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
 }
 
 /**Tablet 768X481**/
@@ -138,6 +194,13 @@
         top: 281.333rem;
         left: 6rem;
         z-index: 10;
+        box-shadow: 10px 10px 30px 0px #00000040;
+    }
+
+    .subCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .textWrap {
