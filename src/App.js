@@ -12,7 +12,7 @@ import Menu from './Components/Menu'
 function App() {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     {/* <First/>
     <Second/>
     <Subscribe />

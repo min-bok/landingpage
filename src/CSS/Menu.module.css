@@ -2,15 +2,35 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: palegoldenrod;
+    background-color: transparent;
+    overflow: hidden;
 }
 
-.wrap {
+.show {
     position: absolute;
     width: 38.533rem;
     height: 100%;
     background-color: #263140;
+    transition: 1s;
     right: 0;
+}
+
+.hide {
+    position: absolute;
+    width: 38.533rem;
+    height: 100%;
+    background-color: #263140;
+    transition: 1s;
+    right: -38.533rem;
+}
+
+.arrow {
+    width: 4.267rem;
+    height: 4.267rem;
+    background-color: #D97652;
+    margin-top: 2.933rem;
+    margin-left: 2.667rem;
+    cursor: pointer;
 }
 
 .list {
@@ -18,7 +38,7 @@
     flex-direction: column;
     height: 28rem;
     justify-content: space-between;
-    margin-top: 16rem;
+    margin-top: 8.8rem;
     margin-left: 6.667rem;
 }
 
@@ -42,20 +62,4 @@
     color: #fff;
     margin-top: 2.667rem;
     cursor: pointer;
-}
-
-.show-menu {
-    width: 376px;
-    height: 500px;
-    position: absolute;
-    left: 0px;
-    transition: 1s;
-}
-    
-.hide-menu {
-    width: 376px;
-    height: 500px;
-    position: absolute;
-    left: -376px;
-    transition: 1s;
 }

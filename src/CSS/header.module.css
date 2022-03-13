@@ -56,6 +56,11 @@
     cursor: pointer;
 }
 
+.show,
+.hide {
+    display: none;
+}
+
 /**Tablet 768X481**/
 @media all and (max-width: 769px){
     .logo {
@@ -100,5 +105,66 @@
     
     .menu {
         display: none;
+    }
+
+    .show {
+        display: block;
+        position: absolute;
+        width: 38.533rem;
+        height: 100vh;
+        background-color: #263140;
+        transition: 1s;
+        top: 0;
+        right: 0;
+    }
+    
+    .hide {
+        display: block;
+        position: absolute;
+        width: 38.533rem;
+        height: 100vh;
+        background-color: #263140;
+        transition: 1s;
+        top: 0;
+        right: -39.533rem;
+    }
+    
+    .arrow {
+        width: 4.267rem;
+        height: 4.267rem;
+        margin-top: 2.933rem;
+        margin-left: 2.667rem;
+        background-image: url(../img/arrow-right.svg);
+        background-size: 100% 100%;
+        cursor: pointer;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: column;
+        height: 28rem;
+        justify-content: space-between;
+        margin-top: 8.8rem;
+        margin-left: 6.667rem;
+    }
+    
+    .li {
+        font-size: 2.133rem;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .btn {
+        width: 15.867rem;
+        height: 5.333rem;
+        background-color: #D97652;
+        border: none;
+        border-radius: 40px;
+        font-weight: 400;
+        font-size: 1.867rem;
+        color: #fff;
+        margin-top: 2.667rem;
+        cursor: pointer;
     }
 }
