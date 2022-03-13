@@ -11,6 +11,15 @@
     z-index: 990;
 }
 
+#modal {
+    width: 40rem;
+    height: 40rem;
+}
+
+.subWrap {
+    display: none;
+}
+
 .textWrap {
     display: flex;
     flex-direction: column;
@@ -76,6 +85,13 @@
     cursor: pointer;
 }
 
+.modal {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #D97652;
+}
+
 /**Tablet 768X481**/
 @media all and (max-width: 769px){
     #subscribe {
@@ -96,6 +112,17 @@
         height: 46.4rem;
         left: 4.267rem;
         top: 278.133rem;
+    }
+
+    #modal {
+        width: 40rem;
+        height: 40rem;
+        background-color: #F2E9D8;
+        border-radius: 40px;
+        background-image: url(../img/modal-bg-img.png);
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
     }
     
     .textWrap {
@@ -143,5 +170,59 @@
         height: 5.333rem;
         font-size: 1.867rem;
         bottom: -8rem;
+    }
+
+    .modalCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modalImg {
+        width: 8rem;
+        height: 8.267rem;
+        background-image: url(../img/cat-subscribe.png);
+        background-size: 100% 100%;
+        margin-top: 5.333rem;
+    }
+
+    .modalTextWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3.2rem;
+    }
+
+    .modalTitle {
+        font-size: 3.2rem;
+        font-weight: 700;
+        color: #D97652;
+        margin-bottom: 1.333rem;
+    }
+
+    .modalText {
+        font-size: 1.867rem;
+        font-weight: 400;
+        line-height: 2.337rem;
+        text-align: center;
+        color: #000;
+        margin-bottom: 3.733rem;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .modalBtn {
+        width: 21.733rem;
+        height: 5.333rem;
+        border: none;
+        border-radius: 40px;
+        background-color: #D97652;
+        font-size: 1.867rem;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
     }
 }
